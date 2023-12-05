@@ -3,6 +3,7 @@ import pytest
 from selenium import webdriver
 import time
 import os
+from selenium.webdriver.chrome.service import Service
 from testData.company.add_new_company_data import AddCompanyData
 from testData.leaves.leave_test_data import SickLeaveData
 
@@ -21,8 +22,8 @@ def pytest_addoption(parser):
 def setup(request):
     BASE_URL = 'https://hrmstest.medplusindia.com/'
     global driver
-    # browser_name = request.config.getoption("browser_name")
-    driver = webdriver.Chrome("/home/mphs/Downloads/chromedriver-linux64/chromedriver")
+    service = Service('/home/mphs/Downloads/chromedriver-linux64/chromedriver')
+    driver = webdriver.Chrome(service=service)
     # if browser_name == "chrome":
     #     driver = webdriver.Chrome()
     # elif browser_name == "firefox":
