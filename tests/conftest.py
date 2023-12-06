@@ -4,6 +4,7 @@ from selenium import webdriver
 import time
 import os
 from selenium.webdriver import Firefox
+from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.firefox.service import Service
 from testData.company.add_new_company_data import AddCompanyData
@@ -25,8 +26,10 @@ def setup(request):
     BASE_URL = 'https://hrmstest.medplusindia.com/'
     global driver
     # service = Service('/home/mphs/Downloads/chromedriver-linux64/chromedriver')
+    opts = FirefoxOptions()
+    opts.add_argument("--headless")
     service = Service('../drivers/geckodriver')
-    driver = Firefox(service=service)
+    driver = Firefox(service=service, options=opts)
     # if browser_name == "chrome":
     #     driver = webdriver.Chrome()
     # elif browser_name == "firefox":
