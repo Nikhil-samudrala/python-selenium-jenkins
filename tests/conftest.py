@@ -3,6 +3,7 @@ import pytest
 from selenium import webdriver
 import time
 import os
+from selenium.webdriver import Firefox
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.firefox.service import Service
 from testData.company.add_new_company_data import AddCompanyData
