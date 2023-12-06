@@ -22,8 +22,8 @@ def pytest_addoption(parser):
 def setup(request):
     BASE_URL = 'https://hrmstest.medplusindia.com/'
     global driver
-    service = Service('/home/mphs/Downloads/chromedriver-linux64/chromedriver')
-    driver = webdriver.Chrome(service=service)
+    # service = Service('/home/mphs/Downloads/chromedriver-linux64/chromedriver')
+    driver = webdriver.Chrome()
     # if browser_name == "chrome":
     #     driver = webdriver.Chrome()
     # elif browser_name == "firefox":
