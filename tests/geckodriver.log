@@ -229,3 +229,58 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 10684, 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1701850248406	geckodriver	INFO	Listening on 127.0.0.1:53965
+1701850248410	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "54393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZowfaE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: libva-drm.so.2 is missing.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701850249593	Marionette	INFO	Marionette enabled
+1701850249695	Marionette	INFO	Listening on port 44705
+WebDriver BiDi listening on ws://127.0.0.1:54393
+Read port: 44705
+1701850249859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54393/devtools/browser/db1991d0-be91-4fed-978b-f00ee3997af1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hrmstest.medplusindia.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hrmstest.medplusindia.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hrmstest.medplusindia.com."
+JavaScript warning: https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js, line 2: Script terminated by timeout at:
+78593/14556/t.splitArray@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4256803
+78593/3808/n.prototype.__eachEvent@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4245680
+78593/3808/n.prototype.off@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4248991
+78593/3808/n.prototype.off/A<@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4248381
+78593/3808/n.prototype.off@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4248358
+78593/30598/t.prototype.removeDragListeners@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4567448
+78593/30598/t.prototype.beforeDestruct@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4567612
+78593/85605/t.prototype.destruct@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4305546
+b@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4247348
+78593/3808/n.prototype.fire/A</<@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4250352
+78593/3808/n.prototype.fire/A<@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4250251
+78593/3808/n.prototype.__eachEvent/<@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4245762
+78593/3808/n.prototype.__eachEvent@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4245720
+78593/3808/n.prototype.fire@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4250123
+78593/75902/t.prototype.beforeDestruct@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4394535
+78593/64522/t.hook/n.exports/<@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4229300
+78593/45113/n.prototype.setStatusComponent/<@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4219611
+78593/45113/n.prototype.setStatusComponent@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4219583
+78593/45113/n.prototype.setStatusComponent@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4219504
+78593/45113/n.prototype.setStatusComponent@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4219504
+78593/45113/n.prototype.setStatusComponent@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4219504
+78593/45113/n.prototype.setStatus@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4219284
+78593/37920/t.prototype.destruct@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4413006
+72911/r/E</</<@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:4042763
+Nl@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:6211530
+60053/t.unstable_runWithPriority@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:6474812
+Ga@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:6152300
+Ll@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:6211128
+64448/Fl/<@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:6211039
+N@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:6473873
+60053/y.port1.onmessage@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:6472596
+
+1701850260210	Marionette	INFO	Stopped listening on port 44705
+1701850261479	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
