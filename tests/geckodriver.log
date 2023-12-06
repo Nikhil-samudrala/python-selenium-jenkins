@@ -284,3 +284,25 @@ N@https://hrmstest.medplusindia.com/static/js/vendors.f91276ca.js:2:6473873
 
 1701850260210	Marionette	INFO	Stopped listening on port 44705
 1701850261479	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1701860709738	geckodriver	INFO	Listening on 127.0.0.1:48795
+1701860710242	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "49425" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelfM1Cl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: libva-drm.so.2 is missing.
+
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1701860711399	Marionette	INFO	Marionette enabled
+1701860711482	Marionette	INFO	Listening on port 43883
+WebDriver BiDi listening on ws://127.0.0.1:49425
+Read port: 43883
+1701860711686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49425/devtools/browser/9a2f5f3f-2fd4-4026-9489-8413e5270e0a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hrmstest.medplusindia.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hrmstest.medplusindia.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hrmstest.medplusindia.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hrmstest.medplusindia.com."
+1701860726358	Marionette	INFO	Stopped listening on port 43883

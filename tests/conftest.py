@@ -25,7 +25,7 @@ def setup(request):
     BASE_URL = 'https://hrmstest.medplusindia.com/'
     global driver
     # service = Service('/home/mphs/Downloads/chromedriver-linux64/chromedriver')
-    service = Service('/home/mphs/Documents/geckodriver')
+    service = Service('../drivers/geckodriver')
     driver = Firefox(service=service)
     # if browser_name == "chrome":
     #     driver = webdriver.Chrome()
