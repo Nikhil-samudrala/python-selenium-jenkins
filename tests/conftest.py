@@ -4,6 +4,7 @@ from selenium import webdriver
 import time
 import os
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.firefox.service import Service
 from testData.company.add_new_company_data import AddCompanyData
 from testData.leaves.leave_test_data import SickLeaveData
 
@@ -23,7 +24,8 @@ def setup(request):
     BASE_URL = 'https://hrmstest.medplusindia.com/'
     global driver
     # service = Service('/home/mphs/Downloads/chromedriver-linux64/chromedriver')
-    driver = webdriver.Firefox(executable_path="/home/mphs/Documents/geckodriver")
+    service = Service('/home/mphs/Documents/geckodriver')
+    driver = Firefox(service=service)
     # if browser_name == "chrome":
     #     driver = webdriver.Chrome()
     # elif browser_name == "firefox":
